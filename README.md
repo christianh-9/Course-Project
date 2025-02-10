@@ -1,4 +1,4 @@
-Christian's Dog Grooming Services 
+# Christian's Dog Grooming Services 
 
 ## Overview  
 This program is a Java Swing application that allows users to schedule same-day appointments for dog grooming services. Users can choose services, pick an available time, and get a confirmation. The application also saves appointment details to a file (apt.txt).
