@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class Main extends JFrame {
     public static void main(String[] args) {
+        // New frame
         JFrame frame = new JFrame();
         frame.setTitle("Set Appointment for ONLY today"); //Create tab title for UI
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -30,6 +31,7 @@ public class Main extends JFrame {
         JTextField petField = new JTextField();
         petField.setMaximumSize(new Dimension(500,30));
 
+        // Add labels and text boxes to panel
         panel.add(nameLabel);
         panel.add(nameField);
         panel.add(petName);
@@ -44,6 +46,7 @@ public class Main extends JFrame {
         JCheckBox nailsCheckBox = new JCheckBox("Nails");
         JCheckBox earCheckBox = new JCheckBox("Ear");
 
+        // Add check boxes to panel
         panel.add(bathingCheckBox);
         panel.add(nailsCheckBox);
         panel.add(earCheckBox);
@@ -52,6 +55,7 @@ public class Main extends JFrame {
         JLabel timeLabel = new JLabel("Select Appointment Time:");
         String[] availableTimes = {"8:00 AM", "9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM", "2:00 PM", "3:00 PM", "4:00 PM", "5:00 PM", "6:00 PM"};
         JComboBox<String> timeDropdown = new JComboBox<>(availableTimes);
+        // Add time and drop down to panel
         panel.add(timeLabel);
         panel.add(timeDropdown);
 
