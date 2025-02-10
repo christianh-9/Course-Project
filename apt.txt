@@ -1,0 +1,6 @@
+Owner: Christian Hong
+Pet name: Zoey
+Services: Bathing, Nail trimming, Ear cleaning
+Price: $50.0
+Appointment time: 8:00 AM
+======================
